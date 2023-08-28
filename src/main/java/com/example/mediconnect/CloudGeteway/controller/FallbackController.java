@@ -8,7 +8,7 @@ public class FallbackController {
 
     @GetMapping("/orderServiceFallBack")
     public String orderServiceFallback() {
-        return "Order Service is down!";
+        return "Order Servicea is down!";
     }
 
     @GetMapping("/paymentServiceFallBack")
