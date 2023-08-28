@@ -124,6 +124,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
+		<finalName>mediconnect-cloud-gateway</finalName>
 	</build>
 
 </project>
