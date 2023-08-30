@@ -12,7 +12,7 @@ spring:
       globalcors:
         corsConfigurations:
           '[/**]':
-            allowedOrigins: "http://localhost:3000"
+            allowedOrigins: "https://mediconnects.netlify.app"
             allowedHeaders: "*"
             allowedMethods:
               - GET
