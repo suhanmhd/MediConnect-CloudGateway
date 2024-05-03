@@ -21,6 +21,7 @@ public class RouteValidator {
             "/user/getdepartments",
             "/user/getUserProfile",
             "/doctor/getDoctorProfile",
+            "/appointment",
 
             "/appointment/getAppointmentRequests",
              "/appointment/getTodaysAppointmentRequests",
