@@ -59,7 +59,7 @@ spring:
             - AuthenticationFilter
 
 
-#
+
 # eureka:
 #   client:
 #     fetch-registry: true
