@@ -38,18 +38,18 @@ spring:
 #            - AuthenticationFilter
 
         - id: AUTH-SERVICE
-          uri: lb://AUTH-SERVICE
+          uri: http://43.204.119.129:8080
           predicates:
             - Path=/auth/**
 
         - id: APPOINTMENT-SERVICE
-          uri: lb://APPOINTMENT-SERVICE
+          uri: http://43.204.119.129:8088
           predicates:
             - Path=/appointment/**
 
 
         - id: USER-SERVICE
-          uri: lb://USER-SERVICE
+          uri: http://43.204.119.129:8084
           predicates:
              - Path=/user/**
 
