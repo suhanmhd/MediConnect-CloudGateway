@@ -49,7 +49,7 @@ spring:
 
 
         - id: USER-SERVICE
-          uri: http://43.204.119.129:8084
+          uri: http://13.202.12.178:8084
           predicates:
              - Path=/user/**
 
