@@ -15,6 +15,7 @@ spring:
             allowedOrigins:
               - "https://mediconnects.netlify.app"
               - "http://localhost:3000"
+              - "*"
            
             allowedHeaders: "*"
             allowedMethods:
